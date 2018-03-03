@@ -1,0 +1,20 @@
+{
+  "name": "spro",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "short_name": "spro",
+  "icons": {
+    "128": "cloud.png"
+  },
+  "description": "streamcloud eu redirect to pro",
+  "content_scripts": [
+    {
+      "matches": ["http://streamcloud.eu/*"],
+      "js": ["redirect.js"]
+    },
+    {
+      "matches": ["http://streamcloud.pro/*"],
+      "js": ["reload.js"]
+    }
+  ]
+}
