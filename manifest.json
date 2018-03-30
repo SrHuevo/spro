@@ -14,7 +14,7 @@
     },
     {
       "matches": ["http://streamcloud.pro/*"],
-      "js": ["reload.js"]
+      "js": ["remove-ad.js"]
     }
   ]
 }
